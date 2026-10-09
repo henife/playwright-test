@@ -13,7 +13,7 @@ test('radio button test', async ({ page }) => {
     
 });
 
-test.only('check box', async ({page}) => {
+test('check box', async ({page}) => {
 
     await page.goto("https://testautomationpractice.blogspot.com/");
 

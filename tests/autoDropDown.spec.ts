@@ -3,7 +3,7 @@ test("Auto Drop Down Test", async ({page}) => {
 
     await page.goto("https://www.flipkart.com/");
 
-    await page.locator("input[name='q']").fill("smart");
+    await page.locator("input[name='q']:not([readonly])").fill("smart");
 
     
     
